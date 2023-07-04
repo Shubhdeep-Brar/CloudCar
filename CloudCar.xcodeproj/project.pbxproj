@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4510CA842A4521D400DE42B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4510CA832A4521D400DE42B3 /* GoogleService-Info.plist */; };
+		621F06441F48C88C8316D93E /* Pods_CloudCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E748ADA5F91944C347D27135 /* Pods_CloudCar.framework */; };
+		7A6DC3822A4E9E9100EF5F28 /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DC3812A4E9E9100EF5F28 /* LocationServices.swift */; };
+		7A84DD3F2A4B6B95002B239F /* DriverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84DD3E2A4B6B95002B239F /* DriverModel.swift */; };
+		7A84DD412A4B6BA4002B239F /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84DD402A4B6BA4002B239F /* CustomerModel.swift */; };
+		7A84DD432A4B6C3B002B239F /* UserIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84DD422A4B6C3B002B239F /* UserIDModel.swift */; };
+		7A84DD452A4B7651002B239F /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84DD442A4B7651002B239F /* ListVC.swift */; };
+		7A84DD472A4B8111002B239F /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84DD462A4B8111002B239F /* ListCell.swift */; };
+		7A99D31B2A42780C0098A0FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A99D31A2A42780C0098A0FA /* AppDelegate.swift */; };
+		7A99D31D2A42780C0098A0FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A99D31C2A42780C0098A0FA /* SceneDelegate.swift */; };
+		7A99D31F2A42780C0098A0FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A99D31E2A42780C0098A0FA /* ViewController.swift */; };
+		7A99D3222A42780C0098A0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A99D3202A42780C0098A0FA /* Main.storyboard */; };
+		7A99D3252A42780C0098A0FA /* DemoFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A99D3232A42780C0098A0FA /* DemoFirebase.xcdatamodeld */; };
+		7A99D3272A42780E0098A0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A99D3262A42780E0098A0FA /* Assets.xcassets */; };
+		7A99D32A2A42780E0098A0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A99D3282A42780E0098A0FA /* LaunchScreen.storyboard */; };
+		7A99D33D2A4288760098A0FA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A99D33C2A4288760098A0FA /* LoginVC.swift */; };
+		7A99D33F2A4289050098A0FA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A99D33E2A4289050098A0FA /* SignUpVC.swift */; };
+		7AA54F822A43C7D00002E1DF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA54F812A43C7D00002E1DF /* UserModel.swift */; };
+		7AEA197B2A4C0CBC008FC625 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA197A2A4C0CBC008FC625 /* DataManager.swift */; };
+		7AEA197D2A4D3D7A008FC625 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA197C2A4D3D7A008FC625 /* UserData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C04B5CFA38740EAA1C6E0AC /* Pods-CloudCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudCar.debug.xcconfig"; path = "Target Support Files/Pods-CloudCar/Pods-CloudCar.debug.xcconfig"; sourceTree = "<group>"; };
+		4510CA832A4521D400DE42B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D9780957E28D69DFDE62818 /* Pods-CloudCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudCar.release.xcconfig"; path = "Target Support Files/Pods-CloudCar/Pods-CloudCar.release.xcconfig"; sourceTree = "<group>"; };
+		7A6DC3812A4E9E9100EF5F28 /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
+		7A84DD3E2A4B6B95002B239F /* DriverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverModel.swift; sourceTree = "<group>"; };
+		7A84DD402A4B6BA4002B239F /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		7A84DD422A4B6C3B002B239F /* UserIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIDModel.swift; sourceTree = "<group>"; };
+		7A84DD442A4B7651002B239F /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		7A84DD462A4B8111002B239F /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		7A99D3172A42780C0098A0FA /* CloudCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A99D31A2A42780C0098A0FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A99D31C2A42780C0098A0FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A99D31E2A42780C0098A0FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A99D3212A42780C0098A0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A99D3242A42780C0098A0FA /* DemoFirebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoFirebase.xcdatamodel; sourceTree = "<group>"; };
+		7A99D3262A42780E0098A0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A99D3292A42780E0098A0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A99D32B2A42780E0098A0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A99D33C2A4288760098A0FA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7A99D33E2A4289050098A0FA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		7AA54F812A43C7D00002E1DF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7AEA197A2A4C0CBC008FC625 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7AEA197C2A4D3D7A008FC625 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		E748ADA5F91944C347D27135 /* Pods_CloudCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A99D3142A42780C0098A0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621F06441F48C88C8316D93E /* Pods_CloudCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A6DC3802A4E9E6C00EF5F28 /* LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DC3812A4E9E9100EF5F28 /* LocationServices.swift */,
+			);
+			path = LocationServices;
+			sourceTree = "<group>";
+		};
+		7A84DD482A4B8746002B239F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A84DD3E2A4B6B95002B239F /* DriverModel.swift */,
+				7A84DD402A4B6BA4002B239F /* CustomerModel.swift */,
+				7A84DD422A4B6C3B002B239F /* UserIDModel.swift */,
+				7AA54F812A43C7D00002E1DF /* UserModel.swift */,
+				7AEA197C2A4D3D7A008FC625 /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A99D30E2A42780B0098A0FA = {
+			isa = PBXGroup;
+			children = (
+				7A99D3192A42780C0098A0FA /* CloudCar */,
+				7A99D3182A42780C0098A0FA /* Products */,
+				D6AE991FDA4EA17CA9CB66B7 /* Pods */,
+				9FFD64937B35962EFB655110 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A99D3182A42780C0098A0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A99D3172A42780C0098A0FA /* CloudCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A99D3192A42780C0098A0FA /* CloudCar */ = {
+			isa = PBXGroup;
+			children = (
+				4510CA832A4521D400DE42B3 /* GoogleService-Info.plist */,
+				7A99D31A2A42780C0098A0FA /* AppDelegate.swift */,
+				7A99D31C2A42780C0098A0FA /* SceneDelegate.swift */,
+				7A99D31E2A42780C0098A0FA /* ViewController.swift */,
+				7A99D3202A42780C0098A0FA /* Main.storyboard */,
+				7A84DD442A4B7651002B239F /* ListVC.swift */,
+				7A84DD462A4B8111002B239F /* ListCell.swift */,
+				7A99D33E2A4289050098A0FA /* SignUpVC.swift */,
+				7A84DD482A4B8746002B239F /* Models */,
+				7A99D33C2A4288760098A0FA /* LoginVC.swift */,
+				7A6DC3802A4E9E6C00EF5F28 /* LocationServices */,
+				7A99D3262A42780E0098A0FA /* Assets.xcassets */,
+				7A99D3282A42780E0098A0FA /* LaunchScreen.storyboard */,
+				7A99D32B2A42780E0098A0FA /* Info.plist */,
+				7A99D3232A42780C0098A0FA /* DemoFirebase.xcdatamodeld */,
+				7AEA197A2A4C0CBC008FC625 /* DataManager.swift */,
+			);
+			path = CloudCar;
+			sourceTree = "<group>";
+		};
+		9FFD64937B35962EFB655110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E748ADA5F91944C347D27135 /* Pods_CloudCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6AE991FDA4EA17CA9CB66B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C04B5CFA38740EAA1C6E0AC /* Pods-CloudCar.debug.xcconfig */,
+				6D9780957E28D69DFDE62818 /* Pods-CloudCar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A99D3162A42780C0098A0FA /* CloudCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A99D32E2A42780E0098A0FA /* Build configuration list for PBXNativeTarget "CloudCar" */;
+			buildPhases = (
+				C9177FDA963251B671E741A6 /* [CP] Check Pods Manifest.lock */,
+				7A99D3132A42780C0098A0FA /* Sources */,
+				7A99D3142A42780C0098A0FA /* Frameworks */,
+				7A99D3152A42780C0098A0FA /* Resources */,
+				9452DE42ED236DF0FFA91A17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudCar;
+			productName = DemoFirebase;
+			productReference = 7A99D3172A42780C0098A0FA /* CloudCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A99D30F2A42780B0098A0FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7A99D3162A42780C0098A0FA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A99D3122A42780B0098A0FA /* Build configuration list for PBXProject "CloudCar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A99D30E2A42780B0098A0FA;
+			productRefGroup = 7A99D3182A42780C0098A0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A99D3162A42780C0098A0FA /* CloudCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A99D3152A42780C0098A0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99D32A2A42780E0098A0FA /* LaunchScreen.storyboard in Resources */,
+				4510CA842A4521D400DE42B3 /* GoogleService-Info.plist in Resources */,
+				7A99D3272A42780E0098A0FA /* Assets.xcassets in Resources */,
+				7A99D3222A42780C0098A0FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9452DE42ED236DF0FFA91A17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudCar/Pods-CloudCar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudCar/Pods-CloudCar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudCar/Pods-CloudCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9177FDA963251B671E741A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A99D3132A42780C0098A0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A99D31F2A42780C0098A0FA /* ViewController.swift in Sources */,
+				7A99D31B2A42780C0098A0FA /* AppDelegate.swift in Sources */,
+				7A6DC3822A4E9E9100EF5F28 /* LocationServices.swift in Sources */,
+				7AEA197D2A4D3D7A008FC625 /* UserData.swift in Sources */,
+				7A99D31D2A42780C0098A0FA /* SceneDelegate.swift in Sources */,
+				7A84DD472A4B8111002B239F /* ListCell.swift in Sources */,
+				7A84DD452A4B7651002B239F /* ListVC.swift in Sources */,
+				7A84DD432A4B6C3B002B239F /* UserIDModel.swift in Sources */,
+				7A84DD412A4B6BA4002B239F /* CustomerModel.swift in Sources */,
+				7A99D3252A42780C0098A0FA /* DemoFirebase.xcdatamodeld in Sources */,
+				7A99D33F2A4289050098A0FA /* SignUpVC.swift in Sources */,
+				7A84DD3F2A4B6B95002B239F /* DriverModel.swift in Sources */,
+				7AA54F822A43C7D00002E1DF /* UserModel.swift in Sources */,
+				7AEA197B2A4C0CBC008FC625 /* DataManager.swift in Sources */,
+				7A99D33D2A4288760098A0FA /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A99D3202A42780C0098A0FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A99D3212A42780C0098A0FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A99D3282A42780E0098A0FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A99D3292A42780E0098A0FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A99D32C2A42780E0098A0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A99D32D2A42780E0098A0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A99D32F2A42780E0098A0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C04B5CFA38740EAA1C6E0AC /* Pods-CloudCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudCar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubhdeep.CloudCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A99D3302A42780E0098A0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9780957E28D69DFDE62818 /* Pods-CloudCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudCar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubhdeep.CloudCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A99D3122A42780B0098A0FA /* Build configuration list for PBXProject "CloudCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A99D32C2A42780E0098A0FA /* Debug */,
+				7A99D32D2A42780E0098A0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A99D32E2A42780E0098A0FA /* Build configuration list for PBXNativeTarget "CloudCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A99D32F2A42780E0098A0FA /* Debug */,
+				7A99D3302A42780E0098A0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A99D3232A42780C0098A0FA /* DemoFirebase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A99D3242A42780C0098A0FA /* DemoFirebase.xcdatamodel */,
+			);
+			currentVersion = 7A99D3242A42780C0098A0FA /* DemoFirebase.xcdatamodel */;
+			path = DemoFirebase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A99D30F2A42780B0098A0FA /* Project object */;
+}
